@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Batu Gunting Kertas</title>
+	<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section id="game-frame">
+		<header id="game-title-box">
+			<span>Batu</span>
+			<span>Gunting</span>
+			<span>Kertas</span>
+		</header>
+
+		<aside class="sidebar-btn">
+			<button class="btn btn-sidebar">
+				<span class="mdi mdi-music" id="btn_bgm" onclick="toggle_bgm()"></span>
+			</button>
+		</aside>
+
+
+		<main>
+			<a href="permainan.html" class="btn btn-big">Mainkan</a>
+			<button class="btn btn-big" onclick="showModal('tentang-aplikasi')">Tentang aplikasi</button>
+		</main>
+
+		<section class="modal close" data-modal="tentang-aplikasi">
+			<div class="modal-content">
+				<header class="modal-header">
+					<span>Tentang Aplikasi</span>
+					<span class="modal-btn-close" onclick="closeModal('tentang-aplikasi')">&times;</span>
+				</header>
+				<section class="modal-body">
+					<p>
+						Aplikasi ini adalah permainan versi web dari permainan tradisional <i> suit batu, gunting, kertas</i>. <br>
+						Di aplikasi ini kamu akan melawan bot / komputer yang akan memilih suit secara acak dan kamu akan mendapatkan skor sesuai dengan hasil permainan.<br>
+
+						<br>
+						<strong>Aturan main</strong>
+						<ol>
+							<li>Batu vs Gunting, pemenangnya Batu</li>
+							<li>Batu vs Kertas, pemenangnya Kertas</li>
+							<li>Gunting vs Batu, pemenangnya Batu</li>
+							<li>Gunting vs Kertas, pemenangnya Gunting</li>
+							<li>Kertas vs Batu, pemenangnya Kertas</li>
+							<li>Kertas vs Gunting, pemenangnya Gunting</li>
+
+							<li>Skor menang: +1</li>
+							<li>Skor seri: 0</li>
+							<li>Skor kalah: -1</li>
+						</ol>
+					</p>
+
+					<hr>
+					<div style="text-align: center; font-size: .75rem;">
+						Terima kasih sudah membaca dan bermain.<br>
+						Dibuat dengan <span class="mdi mdi-heart"></span> oleh <strong>Elang Dev</strong>
+					</div>
+				</section>
+			</div>
+		</section>
+	</section>
+
+	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
