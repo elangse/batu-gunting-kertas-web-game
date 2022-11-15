@@ -11,6 +11,6 @@ Aplikasi ini dibuat menggunakan:
 - Material Design Icon
 
 ## Preview permainan
-<img src="./Screenshots/1.png" style="max-width: 250px;" alt="Screenshot 1">
-<img src="./Screenshots/2.png" style="max-width: 250px;" alt="Screenshot 2">
-<img src="./Screenshots/3.png" style="max-width: 250px;" alt="Screenshot 3">
+!["Screenshot 1"](./Screenshots/1.png | width=200)
+!["Screenshot 2"](./Screenshots/2.png | width=200)
+!["Screenshot 3"](./Screenshots/3.png | width=200)
